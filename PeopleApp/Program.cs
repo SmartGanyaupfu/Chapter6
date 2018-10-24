@@ -65,8 +65,27 @@ namespace PeopleApp
 
             }
 
+            var t = new Thing();
+            t.Data = 42;
+            WriteLine($"Thing: {t.Process("42")}");
 
 
+            var gt = new GenericThing<int>();
+            gt.Data = 42;
+            WriteLine($"Thing: {gt.Process("42")}");
+
+            string number1 = "4";
+            WriteLine($"{number1} sqaured is {Squarer.Sqaure(number1)}");
+            byte number2 = 10;
+            WriteLine($"{number2} sqaured is {Squarer.Sqaure<byte>(number2)}");
+
+            var dv1 = new DisplacementVector(3, 5);
+            var dv2 = new DisplacementVector(-2, 7);
+            var dv3 = dv1 + dv2;
+
+            WriteLine($"({dv1.X},{dv1.Y}) + ({dv2.X},{dv2.Y}) = ({dv3.X}, {dv3.Y})");
+
+            WriteLine(dv1.X);
 
 
         }
