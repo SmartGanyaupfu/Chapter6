@@ -87,6 +87,24 @@ namespace PeopleApp
 
             WriteLine(dv1.X);
 
+            var e1 = new Employee { Name = "Marujata", DateOfBirth = new DateTime(1989, 02, 17) };
+
+            WriteLine($"{e1.Name} was born in {e1.DateOfBirth:dddd,d MMMM yyyy}");
+
+            e1.WriteToConsole();
+            e1.Empcode = "sg01";
+            e1.Hiredate = new DateTime(2016, 08, 01);
+            WriteLine(e1.Name + "was hired on" + e1.Hiredate + "his code is " + e1.Empcode);
+            WriteLine(e1.ToString());
+
+            var e2 = new Employee { Name = "Nomra", Empcode = "aax01" };
+            Person persone = e2;
+            var e3 = new Person { Name = "Thina" };
+            e3.WriteToConsole();
+            persone.WriteToConsole();
+            WriteLine(e2.ToString());
+            WriteLine(persone.ToString());
+            WriteLine(e3.ToString());
 
         }
 
