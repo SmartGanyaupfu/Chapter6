@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PacktLibrary", "PacktLibrary\PacktLibrary.csproj", "{1368B604-B7C6-43E2-AF80-070AAC5C6973}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleApp", "PeopleApp\PeopleApp.csproj", "{D18EC712-047A-4715-937C-527F80D279CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{1368B604-B7C6-43E2-AF80-070AAC5C6973}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1368B604-B7C6-43E2-AF80-070AAC5C6973}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1368B604-B7C6-43E2-AF80-070AAC5C6973}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D18EC712-047A-4715-937C-527F80D279CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D18EC712-047A-4715-937C-527F80D279CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D18EC712-047A-4715-937C-527F80D279CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D18EC712-047A-4715-937C-527F80D279CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
